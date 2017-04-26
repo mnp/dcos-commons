@@ -92,7 +92,7 @@ They store the desired configuration of a service and all relevant information r
    ```
 
    You will deploy your framework to DC/OS as a
-   [package](#packaging).  `build.sh` creates this package.
+   [package](#packaging).  `build.sh` creates this package and uploads it to an AWS S3 bucket that is used to make it available to a DC/OS cluster.
 
 1. Install your package.
 
